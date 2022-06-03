@@ -28,33 +28,3 @@ document.getElementById("randomize-button").addEventListener("click", function(e
         document.getElementById("cats-image").innerHTML = img;
     });
 });
-
-/*
-ajax_get('https://api.thecatapi.com/v1/images/search?size=full', function(data) {
-    //Get the first Array object of the JSON response
-    var img = '<img src="' + data[0]["url"] + '">';
-    document.getElementById("cats-image").innerHTML = img;
-    });
-
-
-  ajax_get('https://api.thecatapi.com/v1/images/search?size=full', function(data) {
-    //Get the first Array object of the JSON response
-    var img = '<img src="' + data[0]["url"] + '">';
-    document.createElement("img") = img;
-    document.body.appendChild(img);
-});*/
-
-/*function fetchCats() {
-    fetch('https://api.thecatapi.com/v1/images/search?size=full')
-    .then(response => response.json())
-    .then((data) => {
-        let catsimgurl = data[0].url
-
-    let catsimgelement = document.createElement("img")
-    catsimgelement.setAttribute('src', `${catsimgurl}`)
-    
-    let catsimgdiv = document.querySelector("cats-image")
-    catsimgdiv.appendChild(catsimgelement)
-    })
-    .catch(err => console.log(err))
-};*/
