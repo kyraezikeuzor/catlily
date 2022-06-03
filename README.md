@@ -3,6 +3,7 @@ This program utilized the free version of the https://thecatapi.com/.
 The starting sample code is provided for free and does not need an API key.
 The program was build in pure JavaScript and here is the backend code with comments.
 
+````
 //Create function ajax_get which takes a url and a callback function
 function ajax_get(url, callback) {
     //Create the variable xmlhttp which equals a new XMLHttpRequest
@@ -34,3 +35,4 @@ document.getElementById("randomize-button").addEventListener("click", function(e
         document.getElementById("cats-image").innerHTML = img;
     });
 });
+````
