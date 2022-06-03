@@ -1,7 +1,7 @@
 # catlily
 This program utilized the free version of the https://thecatapi.com/.
-The starting sample code is provided for free and does not need an API key.
-The program was build in pure JavaScript and here is the backend code with comments.
+The starting sample code used is provided for free [here](https://jsfiddle.net/adenF/njf4vts0/) and does not need an API key.
+This program was build in pure JavaScript and below is the provided backend code with comments.
 
 ````
 //Create function ajax_get which takes a url and a callback function
