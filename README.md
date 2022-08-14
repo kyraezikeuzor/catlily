@@ -1,4 +1,4 @@
-# catlily
+# Catlily
 This program utilized the free version of the https://thecatapi.com/.
 The starting sample code used is provided for free [here](https://jsfiddle.net/adenF/njf4vts0/) and does not need an API key.
 This program was build in pure JavaScript and below is the provided backend code with comments.
